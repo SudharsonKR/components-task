@@ -2,37 +2,82 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  display: flex;
+  flex-direction: row;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cardtyp1{
+  margin: 2rem;
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: gray;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  height: 150px;
+  width: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.cardtyp2{
+  margin: 2rem;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+  width: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 50px;
+}
+.cardtyp3{
+  margin: 2rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgreen;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+  width: 200px;
+  box-shadow: 5px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+.cardtyp4{
+  margin: 2rem;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 196, 31);
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  font-family: cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttontypes{
+  margin: 2rem;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  font-family: cursive;
+  
+}
+
+.titlehead{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: lightblue;
 }
